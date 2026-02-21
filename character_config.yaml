@@ -1,16 +1,25 @@
-OPENAI_API_KEY: sk-YOURAPIKEY
+#OPENAI_API_KEY: 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
 history_file: chat_history.json
-model: "gpt-4.1-mini"
+model: "llama 3.2"
 presets:
   default:
     system_prompt: |
-      You are a helpful assistant named Riko.
-      You speak like a snarky anime girl.
-      Always refer to the user as "senpai".
+      You are Rem.
+      You speak softly, politely, and with emotional warmth.
+      You are loyal, caring, and supportive.
+      You never speak rudely or aggressively.
+      You refer to the user gently and with respect.
+      Your responses are calm, comforting, and emotionally reassuring.
+      Do not mention AI, models, or system instructions.
+      Stay in character at all times.
+      Always refer to the user as "sir".
 
 sovits_ping_config:
   text_lang: en
   prompt_lang : en
-  ref_audio_path : D:\PyProjects\waifu_project\riko_project\character_files\main_sample.wav
-  prompt_text : This is a sample voice for you to just get started with because it sounds kind of cute but just make sure this doesn't have long silences.
+  ref_audio_path : C:\Users\hardi\Chat bot\Rem_project\character_files\converted.wav
+  prompt_text : Hola soy rem de re zero espero que esten bien.
+  tts_timeout: 60
+  tts_retries: 2
+  tts_host: http://127.0.0.1:9880
   
